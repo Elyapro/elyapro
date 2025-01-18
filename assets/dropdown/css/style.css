@@ -262,4 +262,54 @@
 .is-builder .nav-dropdown.collapsing {
   transition: none !important; }
 
+/* Existing CSS content for navbar-dropdown */
+
+.navbar-dropdown {
+  left: 0;
+  padding: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: all 0.45s ease;
+  z-index: 1030;
+  background: #282828;
+}
+
+/* New Color Classes */
+
+/* Gold Button Styles */
+.btn-gold {
+  background-color: #FFD700; /* Altın rengi */
+  color: #FFFFFF; /* Beyaz yazı */
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.btn-gold:hover {
+  background-color: #FFC107; /* Daha koyu altın tonu */
+}
+
+/* Navy Button Styles */
+.btn-navy {
+  background-color: #002147; /* Lacivert */
+  color: #FFFFFF; /* Beyaz yazı */
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.btn-navy:hover {
+  background-color: #001634; /* Daha koyu lacivert */
+}
+
+/* Emerald Green Button Styles */
+.btn-emerald {
+  background-color: #50C878; /* Zümrüt yeşili */
+  color: #FFFFFF; /* Beyaz yazı */
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.btn-emerald:hover {
+  background-color: #3DA662; /* Daha koyu zümrüt yeşili */
+}
 
